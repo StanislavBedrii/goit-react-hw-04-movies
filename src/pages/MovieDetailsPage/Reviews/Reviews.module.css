@@ -1,0 +1,14 @@
+.list {
+  padding-bottom: 50px;
+}
+
+.author {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.content {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid red;
+  padding-bottom: 20px;
+}
+
+.poster {
+  margin-right: 50px;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+
+.info {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.genreList {
+  composes: info;
+}
+
+.linkItem {
+  margin-right: 20px;
+}
+
+.link {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+.activeLink {
+  color: red;
+}
